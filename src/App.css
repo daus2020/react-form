@@ -79,9 +79,15 @@ body {
   padding: 10px 20px;
   transition: transform 0.2s;
   width: 500px;
-  text-align: center;
-  margin: auto;
-  margin-top: 20px;
+  /* display: flex; */
+  /* text-align: center; */
+  /* justify-content: center; */
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  /* margin: auto;
+  margin-top: 20px; */
 }
 h1 {
   font-size: x-large;
